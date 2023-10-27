@@ -8,9 +8,13 @@ Main Functions:
 
 1. Generate random maps and nessary files for ROS:
    ~~~ python
-   python3 main.py // python
+   python3 main.py
    ~~~
-3. Generate Expert Data: python3 datagenerator.py
-   
-4. Distributed Path Planning test  in ROS:./run.sh
-
+3. Generate Expert Data:
+   ~~~ python
+   python3 datagenerator.py
+   ~~~
+4. Distributed Path Planning test  in ROS:
+   ~~~ Bash
+   ./run.sh
+   ~~~
