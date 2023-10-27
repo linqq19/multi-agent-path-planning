@@ -10,11 +10,15 @@ Main Functions:
    ~~~ python
    python3 main.py
    ~~~
-3. Generate Expert Data:
+2. Generate Expert Data:
    ~~~ python
-   python3 datagenerator.py
+   python3 ExpertDataGen/datagenerator.py
    ~~~
-4. Distributed Path Planning test  in ROS:
+3. Distributed Path Planning test  in ROS:
    ~~~ Bash
    ./run.sh
+   ~~~
+4. close gazebo and clear all ROS　topics:
+   ~~~ Bash
+   ./clc.sh
    ~~~
