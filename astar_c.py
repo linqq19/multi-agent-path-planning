@@ -1,3 +1,8 @@
+"""
+A_star 2D accelerated by C
+@author: qingquan lin
+"""
+
 import os
 import numpy as np
 import time
