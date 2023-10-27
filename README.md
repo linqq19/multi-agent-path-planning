@@ -10,5 +10,5 @@ Main Functions:
 
 2. Generate Expert Data: python3 datagenerator.py
    
-3. Distributed Path test in ROS:./run.sh
+3. Distributed Path Planning test  in ROS:./run.sh
 
