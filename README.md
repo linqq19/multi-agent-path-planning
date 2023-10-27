@@ -6,6 +6,5 @@
 2. Generate Expert Data:
    
 
-4. Distributed Path test in ROS:
+3. Distributed Path test in ROS:
 
-5. 
