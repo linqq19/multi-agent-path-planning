@@ -7,7 +7,7 @@ Project Architecture：
 Main Functions:
 
 1. Generate random maps and nessary files for ROS:
-   ~ ~~ python
+   ~~~ python
    python3 main.py // python
    ~~~
 3. Generate Expert Data: python3 datagenerator.py
