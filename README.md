@@ -6,9 +6,11 @@ Project Architecture：
 
 Main Functions:
 
-1. Generate random maps and nessary files for ROS: python3 main.py
-
-2. Generate Expert Data: python3 datagenerator.py
+1. Generate random maps and nessary files for ROS:
+   ~ ~~ python
+   python3 main.py
+   ~~~
+3. Generate Expert Data: python3 datagenerator.py
    
-3. Distributed Path Planning test  in ROS:./run.sh
+4. Distributed Path Planning test  in ROS:./run.sh
 
