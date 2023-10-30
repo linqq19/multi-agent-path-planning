@@ -12,7 +12,7 @@ Main Functions:
    ~~~
 2. Generate Expert Data:
    ~~~ python
-   python3 ExpertDataGen/datagenerator.py
+   python3 ./ExpertDataGen/datagenerator.py
    ~~~
 3. Distributed Path Planning test  in ROS:
    ~~~ Bash
