@@ -30,9 +30,12 @@ A. single step path planning based on Geo-GNN
 
 
 B. GNN enabled efficient and reliable collaborative path planning of multi-robot:
+
+rule-based DHbug:
+
 ![map0108robots15case01_pure_result](https://github.com/linqq19/multi-agent-path-planning/assets/54255402/f6980c24-8474-4f44-acc6-686ff6816083)
 
 ![map0108robots15case01_result1](https://github.com/linqq19/multi-agent-path-planning/assets/54255402/b80363b3-8619-4239-9acb-61733f798a24)
-
+GNN-optinized DHbug:
 
 ![map0108robots15case01_result2](https://github.com/linqq19/multi-agent-path-planning/assets/54255402/75fceb7a-16a1-4992-907f-62caea2b5645)
