@@ -22,3 +22,11 @@ Main Functions:
    ~~~ Bash
    ./clc.sh
    ~~~
+Function display:
+A. single step path planning based on Geo-GNN
+
+![map00000robots15case01_use_opt1_result](https://github.com/linqq19/multi-agent-path-planning/assets/54255402/eb49fb9c-3244-4ff9-88c0-f0dd6e97951e)
+
+
+B. GNN enabled efficient and reliable collaborative path planning of multi-robot:
+
