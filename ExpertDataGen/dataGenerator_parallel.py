@@ -294,10 +294,6 @@ class DataGenerator:
             point(x=start_mx[0],y=start_mx[1]),point(x=end_mx[0],y=end_mx[1]),1.0)
         # print("C based Astar , begin ({}, {})- end ({},{})- length:{:.2f}, use time : {:.2f}\n".format(start_mx[0],start_mx[1],end_mx[0], end_mx[1],astar_len.F,time.time() - since))
 
-        # a_star = Astar.AStar(self.global_map, start_mx, end_mx, "euclidean")
-        # since = time.time()
-        # distance = a_star.run()
-        # print("python based Astar - length:{:.2f}, use time : {:.2f}".format(distance,time.time() - since))
         if astar_len.F == -1:
             return sys.maxsize/10
         else:
