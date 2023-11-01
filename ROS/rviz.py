@@ -68,7 +68,6 @@ def DataUpdating(path_pub, path_record):
     # 路径数量限制
     if len(path_record.poses) > 1000:
         path_record.poses.pop(0)
-
     # 发布路径
     path_pub.publish(path_record)
 
