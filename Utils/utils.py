@@ -1,8 +1,6 @@
 import math
 import collections
 
-
-
 # 角度转换函数:将-360到360度的角度转到-180度到180度
 def angle_transform(alpha):
     alpha = alpha % 360
