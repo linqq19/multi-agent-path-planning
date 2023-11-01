@@ -18,7 +18,7 @@ def main():
     # ROS-Gazebo环境下生成训练数据
     elif config.alg_mode == 1 and config.run_env_type == 0: # 生成数据
         data_gen = DataGenerator(config)
-        # data_gen.generate_ros_files(1)  # ![](result/map027robots04_opt_result.png)
+        # data_gen.generate_ros_files(1) 
         data_gen.generate_samples()  # 每张地图生成1个数据样本文件
     elif config.alg_mode == 2 and config.run_env_type == 0: # 生成地图
         data_gen = DataGenerator(config)
