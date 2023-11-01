@@ -89,15 +89,6 @@ class DhPathPlanner:
         else:
             return False
 
-        # for i in range(len(self.laserRow)):
-        #     delta = abs(angle_transform(self.laserAngle[i] - angle))
-        #     if delta < self._sector_safe_width/2 and self.laserRow[i] < self._dis_threthold:
-        #         return False
-        #     if self._sector_safe_width/2 < delta < 90 and \
-        #             self.laserRow[i] < self._radius / abs(math.cos((90 - delta)/180*math.pi)) - self._radius:
-        #         return False
-        # return True
-
     def check_safe_index(self, index):
         if self.laser_row[index] > self._dis_threthold:
             return True
