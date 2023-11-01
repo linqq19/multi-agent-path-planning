@@ -1,32 +1,6 @@
 from easydict import EasyDict
 
-# def initialize_parser(parser):
-#     parser.add_argument('--family', type=str, help='姓')
-#     parser.add_argument('--name', type=str, required=True, default='', help='名')
-#
-#
-# def get_default_config(json_file):
-#     with open(json_file, 'r') as config_file:
-#         try:
-#             config_dict = json.load(config_file)
-#             # EasyDict allows to access dict values as attributes (works recursively).
-#             config = EasyDict(config_dict)
-#             return config
-#         except ValueError:
-#             print("INVALID JSON file format.. Please provide a good json file")
-#             exit(-1)
-#
-#
-# def process_config(args):
-#     config = get_default_config()
-#     return config
-
-
 def get_config():
-    # parser = argparse.ArgumentParser(description='path planning using graphSAGE')
-    # # initialize_parser(parser)
-    # args = parser.parse_args()
-    # config = process_config(args)
     config = EasyDict({'run_env_type': 0,  # 运行环境类型, 0为ROS环境，1为AirSim
                        'alg_mode': 1,  # 0 与网络无关， 1 数据生成模式,  2 ros 地图生成模式
                        'use_optimizer': 1,  # 使用的优化器的种类： 0 : 无优化器， 1：GNN优化 2: 专家数据-矫正 3 专家数据-不矫正
