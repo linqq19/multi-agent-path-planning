@@ -28,8 +28,8 @@ do
     sleep 3s
 done
 
-#sleep 2s
-# 运行主程序
-#python3 center.py
+sleep 2s
+运行主程序
+python3 center.py
 
 
