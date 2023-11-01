@@ -290,30 +290,6 @@ class Robot:
 
                     self.features[hop+1] = feature
 
-        # elif self.use_optimizer == 2:
-        #     channels = self.get_map_info()
-        #
-        #     # 提取自身感知通道
-        #     self.input = channels[0]
-        #     self.input = self.input.reshape(-1)
-        #     self.input = np.expand_dims(self.input, axis=0)
-        #     self.x0 = self.encoder(self.input, training=False)[0]
-        #
-        #     # 提取目标位置通道 channel2
-        #     channel2 = channels[2]  # 提取目标位置通道
-        #     tmp_p0 = np.argwhere(channel2 == 1)
-        #     tmp_p0 = tmp_p0.reshape(2)
-        #     if tmp_p0.shape[0] == 0:  # 十分接近目标导致目标丢失
-        #         tmp_p0 = np.array([0, 0])
-        #
-        #     tmp_p0 -= self.FOVcentre
-        #     tmp = complex(tmp_p0[0], tmp_p0[1])  # 创建一个复数来进行坐标转换
-        #     r, sita = cmath.polar(tmp)  # 计算长度和角度
-        #     self.r0 = r * self.grid
-        #     self.sita0 = sita
-        #
-        # else:
-        #     pass
 
     # def require_optimizer_output(self):
     #     """获取神经网络的输出值"""
